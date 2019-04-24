@@ -1,4 +1,3 @@
-// your Bomb code here!
 import React from 'react'
 
 export default class Bomb extends React.Component {
@@ -16,7 +15,7 @@ const result = this.state.secondsLeft === 0 ? 'Boom!' : `${this.state.secondsLef
 
     return(
       <div>
-        {result}
+      {result}
       </div>
     )
   }
